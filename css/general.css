@@ -1,33 +1,16 @@
-/* CSS Document */
-
-/*
-
-CSS is structured as follows:
-
-selector {
-    property: value;
-    property: value;
-    property: value
-}
-
-Each selector is paired and styles an element. For example:
-
-html{} is paired with and styles <html>
-
-*/
-
 html { 
     font-family: Arial, Helvetica, Sans-serif;
 }
 
 Body {
-    background-color: #CCC;
+    background-color: darkgrey;
 } 
 
 h1 {
     font-family: Georgia, "Times New Roman", serif;
     font-weight: Normal; 
     font-size: 3rem; /* 1rem = 16px */
+    color: red
 }
 
 h2 {
@@ -50,16 +33,18 @@ strong {
 }
 
 p strong {
-    color: #39F;
+    color: red;
 }
 
 em {
     font-style: italic;
+    color: darkred
 }
 
 ul,
+
 ol {
-    background-color: #FFF;
+    background-color: lightblue;
 }
 
 li {
@@ -67,9 +52,9 @@ li {
 }
 
 ul li:first-child {
-    background-color: #000;
+    background-color: yellow;
 }
     
 ul li:last-child {
-    background-color: #F90;
+    background-color: lightgreen;
 }    
